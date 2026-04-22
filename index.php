@@ -70,7 +70,7 @@
                 <h1 class="display-4 fw-bold mb-3">
                     Especialistas en <span class="text-info-contpaqi">CONTPAQi®</span>
                 </h1>
-                <h2 class="h3 mb-4 fw-light">Distribuidor Master</h2>
+                <h2 class="h3 mb-4 fw-light">Distribuidor Autorizado</h2>
                 <p class="lead mb-5 op-80">
                     Venta, asesoría, implementación, capacitación y soporte técnico especializado para el software que impulsa tu empresa.
                 </p>
