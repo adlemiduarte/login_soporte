@@ -292,20 +292,24 @@ h1, h2, h3, h4, .navbar-brand {
     text-decoration: underline !important; /* Opcional: una rayita abajo al pasar el mouse */
 }
 
-/* Esto obliga a que el banner tenga una altura real */
+/*BANNER*/
 .banner-img {
-    height: 400px; /* Prueba con 600px, si lo quieres más grande ponle 700px */
+    height: 350px; /* Subimos un poquito para que luzca el banner */
     width: 100%;
-    background-size: cover;      /* Esto hace que la imagen llene todo el espacio */
-    background-position: center; /* Centra la imagen para que no se pierda el diseño */
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
-/* Ajuste para que el carrusel no limite la altura */
+/* 2. AQUÍ ESTABA EL ERROR: Cambia el 600 por 450 */
 .carousel-inner, .carousel-item {
-    height: 600px !important;
+    height: 350px !important; 
 }
 
+/* 3. Asegúrate de que no haya margen abajo del carrusel */
+#carouselSoporte {
+    margin-bottom: 0 !important;
+}
 /* En celulares, bajamos un poco la altura para que no se vea raro */
 @media (max-width: 768px) {
     .banner-img, .carousel-inner, .carousel-item {
@@ -349,3 +353,4 @@ h1, h2, h3, h4, .navbar-brand {
 .navbar-brand {
     margin-top: -10px; /* Ajusta este valor si necesitas que suba más */
 }
+
