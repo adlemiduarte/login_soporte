@@ -13,79 +13,79 @@
 </head>
 <body>
 
-   <div class="bg-light py-2 d-none d-lg-block border-bottom">
+   <div class="bg-light py-1 d-none d-lg-block border-bottom">
     <div class="container d-flex justify-content-end align-items-center">
-       <ul class="list-unstyled">
-    <li class="mb-3">
-        <i class="fa-solid fa-phone text-danger me-2"></i> 
-        <a href="tel:6622166882" class="text-decoration-none text-dark hover-red">
-            (622) 855 55 66
-        </a>
-    </li>
+        <div class="me-3 small">
+            <i class="fa-solid fa-phone text-danger me-1"></i> 
+            <a href="tel:6622166882" class="text-decoration-none text-dark hover-red">
+                (622) 855 55 66
+            </a>
+        </div>
 
-    <li class="mb-3">
-        <i class="fa-solid fa-envelope text-danger me-2"></i> 
-        <a href="mailto:ventas@loginsoporte.com" class="text-decoration-none text-dark hover-red">
-            ventas@loginsoporte.com
-        </a>
-    </li>
-</ul>
-        <a href="#contacto" class="btn btn-danger btn-sm px-3 fw-bold">CONTACTO</a>
+        <div class="me-3 small">
+            <i class="fa-solid fa-envelope text-danger me-1"></i> 
+            <a href="mailto:ventas@loginsoporte.com" class="text-decoration-none text-dark hover-red">
+                ventas@loginsoporte.com
+            </a>
+        </div>
+
+        <a href="#contacto" class="btn btn-danger btn-sm px-3 fw-bold" style="font-size: 0.75rem;">CONTACTO</a>
+
         <div class="ms-3">
-            <a href="#" class="text-dark me-2"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#" class="text-dark me-2"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#" class="text-dark"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="text-dark me-2 small"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="text-dark me-2 small"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="text-dark small"><i class="fa-brands fa-youtube"></i></a>
         </div>
     </div>
 </div>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
     <div class="container">
-        <a class="navbar-brand fw-bold" href="#">
-            LOGIN <span class="text-danger">SOPORTE</span>
+        <a class="navbar-brand me-auto" href="index.php">
+            <img src="img/logologin.png" alt="Login Soporte" class="logo-navbar">
         </a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link mx-2" href="#nosotros">NOSOTROS</a></li>
-                <li class="nav-item"><a class="nav-link mx-2" href="#servicios">PRODUCTOS</a></li>
-                <li class="nav-item"><a class="nav-link mx-2" href="#contacto">SERVICIOS</a></li>
-                <li class="nav-item dropdown">
-   
-    
-</li>
-                <li class="nav-item"><a class="nav-link mx-2" href="#contacto">SOPORTE</a></li>
-                
+            <ul class="navbar-nav ms-auto fw-bold align-items-center">
+                <li class="nav-item"><a class="nav-link px-3" href="#nosotros">NOSOTROS</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="#productos">PRODUCTOS</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="#servicios">SERVICIOS</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="#contacto">SOPORTE</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
-    <header class="hero d-flex align-items-center">
-    <div class="container py-5">
-        <div class="row align-items-center">
-            <div class="col-lg-7 text-white animate-fade-in">
-                <h1 class="display-4 fw-bold mb-3">
-                    Especialistas en <span class="text-info-contpaqi">CONTPAQi®</span>
-                </h1>
-                <h2 class="h3 mb-4 fw-light">Distribuidor Autorizado</h2>
-                <p class="lead mb-5 op-80">
-                    Venta, asesoría, implementación, capacitación y soporte técnico especializado para el software que impulsa tu empresa.
-                </p>
-                <div class="d-grid gap-3 d-md-flex justify-content-md-start">
-                    <a href="#contacto" class="btn btn-danger btn-lg px-4 me-md-2 shadow">Cotizar para mi negocio</a>
-                    <a href="#servicios" class="btn btn-outline-light btn-lg px-4">Conocer Servicios</a>
-                </div>
+   <div class="col-lg-12 p-0"> <div id="carouselSoporte" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+                <div class="banner-img" style="background-image: url('img/banner1.png');"></div>
             </div>
-            <div class="col-lg-5 d-none d-lg-block">
-                <img src="img/CONTPAQi.png"
-                     alt="Soporte Login" class="img-fluid rounded-3 shadow-lg border border-light border-5">
+
+            <div class="carousel-item">
+                <div class="banner-img" style="background-image: url('img/banner2.png');"></div>
             </div>
+            
+            <div class="carousel-item">
+                <div class="banner-img" style="background-image: url('img/banner3.png');"></div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSoporte" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselSoporte" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+</button>
         </div>
     </div>
-</header>
+</div>
 
     <section class="container my-5" id="servicios">
     <ul class="nav nav-pills nav-justified mb-5 shadow-sm rounded border" id="pills-tab" role="tablist">
