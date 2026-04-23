@@ -25,7 +25,7 @@
         <div class="me-3 small">
             <i class="fa-solid fa-envelope text-danger me-1"></i> 
             <a href="mailto:ventas@loginsoporte.com" class="text-decoration-none text-dark hover-red">
-                ventas@loginsoporte.com
+                ventas@login.com
             </a>
         </div>
 
@@ -59,7 +59,6 @@
         </div>
     </div>
 </nav>
-
 
    <div class="col-lg-12 p-0"> <div id="carouselSoporte" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
