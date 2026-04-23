@@ -1,5 +1,5 @@
 <?php
-include 'conexion.php'; // Asegúrate de tener el archivo de conexión que hicimos antes
+include 'conexion.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nombre = $_POST['nombre'];

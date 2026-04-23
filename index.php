@@ -60,6 +60,7 @@
     </div>
 </nav>
 
+
    <div class="col-lg-12 p-0"> <div id="carouselSoporte" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             
@@ -86,6 +87,7 @@
         </div>
     </div>
 </div>
+
 
     <section class="container my-5" id="servicios">
     <ul class="nav nav-pills nav-justified mb-5 shadow-sm rounded border" id="pills-tab" role="tablist">
@@ -225,6 +227,8 @@
     </div> </div>
 
 </section>
+
+
    <section id="contacto" class="py-5 bg-light">
     <div class="container">
         <div class="row align-items-center"> <div class="col-md-6">
@@ -265,6 +269,7 @@
         </div>
     </div>
 </section>
+ 
 
 <section id="nosotros" class="py-5 bg-white">
     <div class="container">
@@ -307,7 +312,7 @@
 
             <div class="col-lg-5 mt-4 mt-lg-0">
                 <div class="shadow-lg rounded-4 overflow-hidden border border-5 border-light">
-                    <img src="img/mivi.jpeg" alt="Equipo Login Soporte" class="img-fluid w-100">
+                    <img src="img/mision.jpg" alt="Equipo Login Soporte" class="img-fluid w-100">
                 </div>
             </div>
 
